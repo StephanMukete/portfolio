@@ -23,6 +23,7 @@ h1, h2, h3{
 
     &.lg-heading {
         font-size: 6rem;
+        margin-top: 1rem;
     }
 
     &.sm-heading{
@@ -63,7 +64,7 @@ header{
 }
 
 main{
-    padding: 4rem;
+    padding:0 4rem 3rem 4rem;
     height: 100%;
     min-height: calc(100vh - 60px);
 
@@ -129,7 +130,7 @@ main{
 
     img{
         width: 100%;
-        border: 3px #fff solid;
+        border: 7px #fff solid;
 
         &:hover {
             opacity: 0.5;
